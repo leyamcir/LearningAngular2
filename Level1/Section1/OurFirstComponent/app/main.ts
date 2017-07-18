@@ -12,7 +12,7 @@ class AppComponent {
 
 @NgModule({
   imports: [ BrowserModule ],
-  declarations: [  ],
+  declarations: [ AppComponent ],
 
 })
 class AppModule {}
