@@ -6,9 +6,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
   selector: 'racing-app',
   template: `
     <h1>{{ heading }}</h1>
-    <h2><!-- Name --></h2>
-    <p><!-- Date --></p>
-    <p><!-- About --></p>
+    <h2>{{ race.name }}</h2>
+    <p>{{ race.date }}</p>
+    <p>{{ race.about }}</p>
   `
 })
 class AppComponent {
